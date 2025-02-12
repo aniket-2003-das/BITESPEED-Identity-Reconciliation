@@ -1,0 +1,11 @@
+# Prisma
+.env
+.env*.local
+
+# Node
+node_modules/
+dist/
+
+# Editor files
+.idea/
+.vscode/
