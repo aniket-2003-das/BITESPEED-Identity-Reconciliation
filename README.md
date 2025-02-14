@@ -2,6 +2,20 @@
 
 This is a backend service designed to identify and consolidate customer contact information across multiple purchases. The service links contacts based on shared email or phone number, maintains the oldest contact as the primary, and returns a consolidated view of the contact information.
 
+## Deployment URLs
+
+### Project Endpoint Deployment
+
+- **Base URL**: `https://bitespeed-identity-reconciliation-wzbg.onrender.com`
+- **Identify API**: `POST https://bitespeed-identity-reconciliation-wzbg.onrender.com/identify`
+
+### Database Deployment
+
+- **Database URL**: "Private URL"
+- **Host**: `railway.com`
+- **Port**: `3306`
+- **Database Name**: `bitespeed_db`
+
 ## Features
 
 - **Contact Identification**: Links contacts based on shared email or phone number.
